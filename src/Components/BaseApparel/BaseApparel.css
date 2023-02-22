@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+.Overall-Background {
+    /* background-color: #123456; */
+    margin-bottom: 32px;
+    padding: 72px;
+    font-family: josefin Sans;
+}
+
+.LogoDiv {
+ padding-bottom: 32px;
+}
+
+.Desktop {
+    float: right;
+}
+
+
+.mobile {
+    padding-bottom: 12px;
+    display: none;
+}
+
+
+/* Responsiveness for Mobile */
+
+@media screen and ( max-width: 678px) {
+    .mobile {
+        display: block;
+    }
+
+    .Desktop {
+        display: none;
+    }
+
+    .mainHeader h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainParagraph p {
+        display: flex;
+        justify-content: center;
+    }
+
+    span {
+        color: hsl(0, 36%, 70%);
+        font-weight: 300;
+        padding-top: 32px;
+    }
+    
+    .mainHeader {
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 4px;
+        font-weight: 700;
+        line-height: 0.9;
+    }
+    
+    .mainParagraph {
+        color: hsl(0, 36%, 70%);
+        text-align: center;
+        padding-top: 18px;
+        font-size: 16px;
+    }
+}
+
+/* Responsiveness for Desktop */
+
+/* @media screen and ( max-width: 1440px) {
+
+} */
+
+span {
+    color: hsl(0, 36%, 70%);
+     
+}
+
+.mainHeader {
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.emailSection {
+    padding-top: 18px;
+}
+
+#t-1 {
+    color: hsl(0, 36%, 70%);
+        padding-top: 18px;
+        font-size: 16px;
+}
+
+#icon-arrow {
+    background-color: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
